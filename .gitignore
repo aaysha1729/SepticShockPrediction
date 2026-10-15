@@ -1,0 +1,16 @@
+
+# Temporary files
+tempCodeRunnerFile.python
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Python environments and secrets
+.venv/
+venv/
+.env
+
+# Downloaded or patient-level data
+data/*
+!data/README.md
+

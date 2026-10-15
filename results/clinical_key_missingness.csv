@@ -1,0 +1,11 @@
+column,missing_fraction
+caseid,0.0
+age,0.0
+death_inhosp,0.0
+optype,0.0
+preop_htn,0.0
+preop_dm,0.0
+preop_hb,0.05338134001252348
+preop_cr,0.05823418910457107
+intraop_ebl,0.3758609893550407
+intraop_uo,0.41969317470256734

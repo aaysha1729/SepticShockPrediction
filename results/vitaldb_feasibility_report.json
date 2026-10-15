@@ -1,0 +1,336 @@
+{
+  "audit_timestamp_utc": "2026-10-15T12:53:32.294677+00:00",
+  "scope": "Public metadata and track availability only; no waveform files downloaded.",
+  "warnings": [
+    "Track availability does not prove signal duration or quality.",
+    "VitalDB is primarily intraoperative, not a confirmed septic-shock cohort.",
+    "Lab row counts are measurements, not unique patient counts."
+  ],
+  "clinical_shape": [
+    6388,
+    74
+  ],
+  "lab_shape": [
+    928448,
+    4
+  ],
+  "clinical_columns": [
+    "caseid",
+    "subjectid",
+    "casestart",
+    "caseend",
+    "anestart",
+    "aneend",
+    "opstart",
+    "opend",
+    "adm",
+    "dis",
+    "icu_days",
+    "death_inhosp",
+    "age",
+    "sex",
+    "height",
+    "weight",
+    "bmi",
+    "asa",
+    "emop",
+    "department",
+    "optype",
+    "dx",
+    "opname",
+    "approach",
+    "position",
+    "ane_type",
+    "preop_htn",
+    "preop_dm",
+    "preop_ecg",
+    "preop_pft",
+    "preop_hb",
+    "preop_plt",
+    "preop_pt",
+    "preop_aptt",
+    "preop_na",
+    "preop_k",
+    "preop_gluc",
+    "preop_alb",
+    "preop_ast",
+    "preop_alt",
+    "preop_bun",
+    "preop_cr",
+    "preop_ph",
+    "preop_hco3",
+    "preop_be",
+    "preop_pao2",
+    "preop_paco2",
+    "preop_sao2",
+    "cormack",
+    "airway",
+    "tubesize",
+    "dltubesize",
+    "lmasize",
+    "iv1",
+    "iv2",
+    "aline1",
+    "aline2",
+    "cline1",
+    "cline2",
+    "intraop_ebl",
+    "intraop_uo",
+    "intraop_rbc",
+    "intraop_ffp",
+    "intraop_crystalloid",
+    "intraop_colloid",
+    "intraop_ppf",
+    "intraop_mdz",
+    "intraop_ftn",
+    "intraop_rocu",
+    "intraop_vecu",
+    "intraop_eph",
+    "intraop_phe",
+    "intraop_epi",
+    "intraop_ca"
+  ],
+  "lab_columns": [
+    "caseid",
+    "dt",
+    "name",
+    "result"
+  ],
+  "top_30_lab_tests": [
+    {
+      "name": "hct",
+      "measurement_count": 58498,
+      "unique_cases": 5457,
+      "missing_results": 0
+    },
+    {
+      "name": "k",
+      "measurement_count": 55486,
+      "unique_cases": 5402,
+      "missing_results": 0
+    },
+    {
+      "name": "na",
+      "measurement_count": 55463,
+      "unique_cases": 5402,
+      "missing_results": 0
+    },
+    {
+      "name": "hb",
+      "measurement_count": 43976,
+      "unique_cases": 5371,
+      "missing_results": 0
+    },
+    {
+      "name": "wbc",
+      "measurement_count": 43941,
+      "unique_cases": 5371,
+      "missing_results": 0
+    },
+    {
+      "name": "plt",
+      "measurement_count": 43529,
+      "unique_cases": 5369,
+      "missing_results": 0
+    },
+    {
+      "name": "cl",
+      "measurement_count": 40863,
+      "unique_cases": 5250,
+      "missing_results": 0
+    },
+    {
+      "name": "cr",
+      "measurement_count": 37311,
+      "unique_cases": 5170,
+      "missing_results": 0
+    },
+    {
+      "name": "bun",
+      "measurement_count": 37213,
+      "unique_cases": 5170,
+      "missing_results": 0
+    },
+    {
+      "name": "gfr",
+      "measurement_count": 36683,
+      "unique_cases": 5144,
+      "missing_results": 0
+    },
+    {
+      "name": "alb",
+      "measurement_count": 36629,
+      "unique_cases": 5278,
+      "missing_results": 0
+    },
+    {
+      "name": "tbil",
+      "measurement_count": 36088,
+      "unique_cases": 5278,
+      "missing_results": 0
+    },
+    {
+      "name": "tprot",
+      "measurement_count": 36034,
+      "unique_cases": 5278,
+      "missing_results": 0
+    },
+    {
+      "name": "ast",
+      "measurement_count": 35919,
+      "unique_cases": 5279,
+      "missing_results": 0
+    },
+    {
+      "name": "alt",
+      "measurement_count": 35918,
+      "unique_cases": 5279,
+      "missing_results": 0
+    },
+    {
+      "name": "gluc",
+      "measurement_count": 35358,
+      "unique_cases": 5091,
+      "missing_results": 0
+    },
+    {
+      "name": "crp",
+      "measurement_count": 28278,
+      "unique_cases": 4669,
+      "missing_results": 0
+    },
+    {
+      "name": "ptsec",
+      "measurement_count": 21156,
+      "unique_cases": 4446,
+      "missing_results": 0
+    },
+    {
+      "name": "ptinr",
+      "measurement_count": 21156,
+      "unique_cases": 4446,
+      "missing_results": 0
+    },
+    {
+      "name": "pt%",
+      "measurement_count": 21154,
+      "unique_cases": 4446,
+      "missing_results": 0
+    },
+    {
+      "name": "aptt",
+      "measurement_count": 20542,
+      "unique_cases": 4437,
+      "missing_results": 0
+    },
+    {
+      "name": "fib",
+      "measurement_count": 18931,
+      "unique_cases": 4302,
+      "missing_results": 0
+    },
+    {
+      "name": "ica",
+      "measurement_count": 17705,
+      "unique_cases": 3745,
+      "missing_results": 0
+    },
+    {
+      "name": "p",
+      "measurement_count": 16440,
+      "unique_cases": 2724,
+      "missing_results": 0
+    },
+    {
+      "name": "ph",
+      "measurement_count": 14597,
+      "unique_cases": 3483,
+      "missing_results": 0
+    },
+    {
+      "name": "po2",
+      "measurement_count": 14597,
+      "unique_cases": 3483,
+      "missing_results": 0
+    },
+    {
+      "name": "pco2",
+      "measurement_count": 14590,
+      "unique_cases": 3483,
+      "missing_results": 0
+    },
+    {
+      "name": "hco3",
+      "measurement_count": 14578,
+      "unique_cases": 3483,
+      "missing_results": 0
+    },
+    {
+      "name": "sao2",
+      "measurement_count": 14572,
+      "unique_cases": 3483,
+      "missing_results": 0
+    },
+    {
+      "name": "lac",
+      "measurement_count": 14516,
+      "unique_cases": 3473,
+      "missing_results": 0
+    }
+  ],
+  "ppg_art_candidate_count": 3459,
+  "ppg_art_candidate_caseids_first_50": [
+    1,
+    3,
+    4,
+    7,
+    10,
+    13,
+    14,
+    16,
+    17,
+    19,
+    20,
+    22,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    31,
+    32,
+    34,
+    38,
+    43,
+    44,
+    46,
+    49,
+    50,
+    51,
+    52,
+    58,
+    59,
+    60,
+    61,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    74,
+    75,
+    77,
+    79,
+    83,
+    84,
+    87,
+    89,
+    91,
+    92
+  ],
+  "candidate_cases_in_clinical_table": 3459,
+  "candidate_cases_with_any_lab_record": 3395
+}
